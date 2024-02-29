@@ -1,0 +1,25 @@
+{
+  "Employee": [
+    {
+      "id": "102",
+      "empName": "swap",
+      "empPost": "Analyst",
+      "empSalary": "70000",
+      "empAddress": "pune"
+    },
+    {
+      "id": "103",
+      "empName": "rohit",
+      "empPost": "front end developer",
+      "empSalary": "56000",
+      "empAddress": "mumbai"
+    },
+    {
+      "id": "104",
+      "empName": "ritu",
+      "empPost": "Data analytics",
+      "empSalary": "66000",
+      "empAddress": "nashik"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "product": [
+    {
+      "name": "mouse",
+      "price": "500",
+      "company": "HP",
+      "id": 103
+    },
+    {
+      "id": 104,
+      "name": "charger",
+      "price": 800,
+      "company": "HP"
+    },
+    {
+      "id": 105,
+      "name": "USB",
+      "price": 1000,
+      "company": "SanDisk"
+    },
+    {
+      "name": "mobile",
+      "price": "2000",
+      "company": "oppo",
+      "id": 106
+    },
+    {
+      "name": "swap",
+      "price": "200000",
+      "company": "bajaj",
+      "id": 107
+    },
+    {
+      "name": "swap",
+      "price": "",
+      "company": "bajaj",
+      "id": 108
+    },
+    {
+      "name": "",
+      "price": "",
+      "company": "",
+      "id": 109
+    }
+  ]
+}

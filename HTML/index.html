@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../javascript/external.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSS/external.css">
+    
+
+    <title>CRUD</title>
+</head>
+<body>
+<strong>
+    <div class="container mt-3 bg-info">
+         <div class="row" >
+            <div class="col-sm-4 box">
+                <button class="btn btn-success mt-3 mb-3" type="button" onclick="getData()">GetData</button>
+                <div id="d1">
+            
+                </div>
+            </div>
+            <div class="col-sm-4 box">
+                <input type="text" id="getid" placeholder="insert product id" class="form-control">
+                <button type="button" class="btn btn-danger mt-3 mb-3" onclick="deleteData()">Delete Product</button>
+                
+            </div>
+            <div class="col-sm-4 box">
+                <input type="text" id="getname" placeholder="insert product name" class="form-control mb-2" required>
+                <input type="text" id="getprice" placeholder="insert product price" class="form-control mb-2" required>
+                <input type="text" id="getcompany" placeholder="insert product company" class="form-control mb-2" required>
+                <button type="button" class="btn btn-success mt-3 mb-3" onclick="addProduct()">AddProduct</button>
+
+            </div>
+               <div class="col-sm-4 box">
+            <input type="text" id="getpid" placeholder="insert product id" class="form-control mb-2">
+            <button type="button" class="btn btn-success mt-3 mb-3" onclick="editProduct()">fetch Data</button>
+
+
+            <input type="text" id="getpname" placeholder="insert product name" class="form-control mb-2">
+                <input type="text" id="getpprice" placeholder="insert product price" class="form-control mb-2">
+                <input type="text" id="getpcompany" placeholder="insert product company" class="form-control mb-2">
+                <button type="button" class="btn btn-success mt-3 mb-3" onclick="editProduct2()">Edit Product</button>
+
+
+              </div>
+         </div>
+
+    </div>
+</strong>
+
+   
+</body>
+</html>

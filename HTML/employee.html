@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="../CSS/employee.css">
+     <script src="../javascript/employee.js"></script>
+    <title>CRUD Employee</title>
+</head>
+<body>
+    <div class="container mt-3 bg-warning">
+        <div class="row">
+            <div class="col-sm-8 box">
+                <button class="btn btn-success mt-3 mb-3" type="button" onclick="getData()">GetData</button>
+                <div id="data">
+                    <table class="table">
+                        <tr>
+                            <th>empId</th>
+                            <th>empName</th>
+                            <th>empPost</th>
+                            <th>empSalary</th>
+                            <th>empAddress</th>
+                        </tr>
+
+                        <tbody id="ul1">
+
+                        </tbody>
+                        
+                    </table>
+            
+                </div>
+            </div>
+            <div class="col-sm-4 box">
+                <input type="text" id="getid" class="form-control mt-3" placeholder="enter employee id">
+                <button type="button" class="btn btn-danger mt-3 mb-3" onclick="deleteData()">Delete Data</button>
+            </div>
+            
+            <div class="col-sm-4 box">
+                <input type="text" id="getname" placeholder="insert employee name" class="form-control mb-2" required>
+                <input type="text" id="getpost" placeholder="insert employee post" class="form-control mb-2" required>
+                <input type="text" id="getsalary" placeholder="insert employee salary" class="form-control mb-2" required>
+                <input type="text" id="getaddress" placeholder="insert employee address" class="form-control mb-2" required>
+
+                <button type="button" class="btn btn-success mt-3 mb-3" onclick="addData()">Add Employee</button>
+
+            </div>
+
+            <div class="col-sm-4 box">
+                <input type="text" id="geteid" placeholder="insert product id" class="form-control mb-2">
+                <button type="button" class="btn btn-success mt-3 mb-3" onclick="editEmployee()">fetch Data</button>
+
+
+                <input type="text" id="getename" placeholder="insert employee name" class="form-control mb-2">
+                <input type="text" id="getepost" placeholder="insert employee post" class="form-control mb-2">
+                <input type="text" id="getesalary" placeholder="insert employee salary" class="form-control mb-2">
+                <input type="text" id="geteaddress" placeholder="insert employee address" class="form-control mb-2">
+
+                <button type="button" class="btn btn-success mt-3 mb-3" onclick="editEmployee2()">Edit
+                    Employee</button>
+
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
